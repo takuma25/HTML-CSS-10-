@@ -71,18 +71,18 @@
 @media screen and (max-width: 768px) {
   header {
     height: 50px;
+    margin-bottom: 50px;
     background-color: #ff9a4b;
   }
 
   main {
     width: 100%;
-    margin: 50px auto;
   }
 
   .step-box {
     width: 90%;
     padding: 10px;
-    margin-bottom: 30px;
+    margin: 0 auto 20px auto;
     position: relative;
     background-color: #eee;
   }
@@ -103,6 +103,7 @@
 
   .step-img3 {
     height: 150px;
+    margin: 0 auto;
     background-image: url(img/flow03.png);
     background-position: bottom;
     background-size: cover;
@@ -123,6 +124,7 @@
 
   footer {
     height: 50px;
+    margin-top: 50px;
     background-color: #aaa;
   }
 }
